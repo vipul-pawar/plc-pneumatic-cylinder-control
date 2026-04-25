@@ -15,7 +15,7 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 
 <table>
   <tr>
-    <td style="vertical-align:top; width:50%;">
+    <td style="vertical-align:top; width:70%;">
       <ul>
         <li>Pneumatic Air Preparation Unit (FRL)</li>
         <li>4/2 Solenoid Valve</li>
