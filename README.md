@@ -25,7 +25,7 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
         <li>PLC (Siemens CPU 1215C)</li>
       </ul>
     </td>
-    <td style="vertical-align:top; width:50%; text-align:center;">
+    <td style="vertical-align:top; width:70%; text-align:center;">
       <table>
         <tr>
           <td><img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/></td>
