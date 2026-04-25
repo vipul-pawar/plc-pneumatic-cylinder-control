@@ -29,27 +29,28 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 
 ---
 
-### ⚡ Rung 1 – Off-Delay Timer
+### ⚡ Network 1 – Start Push Button
 <p align="center">
-  <img src="images/photo_6296237832363773611_x.jpg" alt="Rung 1 Off-Delay Timer" width="600"/>
+  <img src="images/photo_6296237832363773611_x.jpg" alt="Network 1 Start PB" width="600"/>
 </p>
-<p><em>Rung 1 applies a 5-second off-delay timer to Cylinder 1, ensuring controlled extension before Cylinder 2 activates.</em></p>
+<p><em>Pressing Start_PB (%I0.0) sets MemoryBit (%M0.0) to begin the sequence.</em></p>
 
 ---
 
-### ⚡ Rung 2 – Negative Edge Detection
+### ⚡ Network 2 – Off-Delay Timer
 <p align="center">
-  <img src="images/photo_6296237832363773610_x.jpg" alt="Rung 2 Negative Edge Detection" width="600"/>
+  <img src="images/photo_6296237832363773609_x.jpg" alt="Network 2 Off-Delay Timer" width="600"/>
 </p>
-<p><em>Rung 2 detects the negative edge of Cylinder 1’s signal, triggering Cylinder 2 to extend only after Cylinder 1 completes its cycle.</em></p>
+<p><em>MemoryBit triggers a TOF timer with 5s preset, controlling SolenoidValve (%Q0.2) for Cylinder 1.</em></p>
 
 ---
 
-### ⚡ Rung 3 – Reset/Return
+### ⚡ Network 3 – Negative Edge Detection
 <p align="center">
-  <img src="images/photo_6296237832363773609_x.jpg" alt="Rung 3 Reset Logic" width="600"/>
+  <img src="images/photo_6296237832363773610_x.jpg" alt="Network 3 Negative Edge Detection" width="600"/>
 </p>
-<p><em>Rung 3 resets the sequence, returning both cylinders to their initial positions for repeatable operation.</em></p>
+<p><em>After Cylinder 1 completes, ExtendedSensor (%I0.3) detects the negative edge and activates SecondValve (%Q0.1) for Cylinder 2.</em></p>
+
 
 ## 🛠 Skills Demonstrated
 - PLC Programming (Timers, Edge Detection)
