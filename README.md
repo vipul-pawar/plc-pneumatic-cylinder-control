@@ -13,22 +13,27 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 
 ## ⚙️ Hardware Used
 
-<div style="display: flex; align-items: flex-start;">
-  <div style="flex: 1;">
-    - Pneumatic Air Preparation Unit (FRL)  
-    - 4/2 Solenoid Valve  
-    - Pneumatic Manifold  
-    - Single-acting Cylinder (Janatics ADN 32×100 mm)  
-    - Double-acting Cylinder  
-    - PLC (Siemens CPU 1215C)  
-  </div>
-  <div style="flex: 1; text-align: right;">
-    <img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/>
-    <img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="120"/>
-    <img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/>
-    <img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/>
-  </div>
-</div>
+<table>
+  <tr>
+    <td style="vertical-align:top; width:50%;">
+      <ul>
+        <li>Pneumatic Air Preparation Unit (FRL)</li>
+        <li>4/2 Solenoid Valve</li>
+        <li>Pneumatic Manifold</li>
+        <li>Single-acting Cylinder (Janatics ADN 32×100 mm)</li>
+        <li>Double-acting Cylinder</li>
+        <li>PLC (Siemens CPU 1215C)</li>
+      </ul>
+    </td>
+    <td style="vertical-align:top; text-align:right; width:50%;">
+      <img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/>
+      <img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="120"/>
+      <img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/>
+      <img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/>
+    </td>
+  </tr>
+</table>
+
 
 
 ## 🧩 PLC Logic
