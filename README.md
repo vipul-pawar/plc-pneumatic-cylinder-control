@@ -15,7 +15,7 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 
 <table>
   <tr>
-    <td style="vertical-align:top; width:70%;">
+    <td style="vertical-align:top; width:50%;">
       <ul>
         <li>Pneumatic Air Preparation Unit (FRL)</li>
         <li>4/2 Solenoid Valve</li>
@@ -25,15 +25,15 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
         <li>PLC (Siemens CPU 1215C)</li>
       </ul>
     </td>
-    <td style="vertical-align:top; width:70%; text-align:center;">
+    <td style="vertical-align:top; width:50%; text-align:center;">
       <table>
         <tr>
-          <td><img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="150"/></td>
+          <td><img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/></td>
           <td><img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="150"/></td>
         </tr>
         <tr>
-          <td><img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="150"/></td>
-          <td><img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="150"/></td>
+          <td><img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/></td>
+          <td><img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/></td>
         </tr>
       </table>
     </td>
