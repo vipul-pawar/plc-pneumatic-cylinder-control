@@ -26,13 +26,20 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
       </ul>
     </td>
     <td style="vertical-align:top; width:50%; text-align:center;">
-      <img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/>
-      <img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="120"/>
-      <img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/>
-      <img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/>
+      <table>
+        <tr>
+          <td><img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/></td>
+          <td><img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="120"/></td>
+        </tr>
+        <tr>
+          <td><img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/></td>
+          <td><img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/></td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
+
 
 
 ## 🧩 PLC Logic
