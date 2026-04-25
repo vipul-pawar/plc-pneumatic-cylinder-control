@@ -83,6 +83,7 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 - Troubleshooting & Wiring
 
 ## 📂 Repository Structure
+```
 plc-pneumatic-cylinder-control/
 ├── Controlling Pneumatic Acuator 2/
 │   ├── It is a zip file of Ladder Diagram folder
@@ -90,3 +91,4 @@ plc-pneumatic-cylinder-control/
 │   └── images/
 └── README.md
     └── Documentation with overview, hardware details, PLC logic, and usage guide
+```
