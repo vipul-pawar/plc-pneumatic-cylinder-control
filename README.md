@@ -12,12 +12,24 @@ This project demonstrates PLC-based control of pneumatic cylinders using:
 - Sequential activation of single and double-acting cylinders
 
 ## ⚙️ Hardware Used
-- Pneumatic Air Preparation Unit (FRL)
-- 4/2 Solenoid Valve
-- Pneumatic Manifold
-- Single-acting Cylinder (Janatics ADN 32×100 mm)
-- Double-acting Cylinder
-- PLC (with ladder logic programming)
+
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+    - Pneumatic Air Preparation Unit (FRL)  
+    - 4/2 Solenoid Valve  
+    - Pneumatic Manifold  
+    - Single-acting Cylinder (Janatics ADN 32×100 mm)  
+    - Double-acting Cylinder  
+    - PLC (Siemens CPU 1215C)  
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="images/photo_6293941154436813075_w.jpg" alt="FRL Unit" width="120"/>
+    <img src="images/photo_6293941154436813078_w (1).jpg" alt="4/2 Valve" width="120"/>
+    <img src="images/photo_6293941154436813074_y.jpg" alt="Manifold" width="120"/>
+    <img src="images/photo_6293941154436813077_w.jpg" alt="Cylinder" width="120"/>
+  </div>
+</div>
+
 
 ## 🧩 PLC Logic
 
